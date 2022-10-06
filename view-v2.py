@@ -3,8 +3,8 @@
 
 def view(description, strings):
     print(description)
-    for i in range(len(names)):
-        print(f"    {i + 1}) {names[i]}")
+    for i in range(len(strings)):
+        print(f"    {i + 1}) {strings[i]}")
 
 
 names = ["nisse", "stina", "bosse", "mimmi"]
